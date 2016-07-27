@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E59EB7951D48A6AD008A6674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EB7941D48A6AD008A6674 /* main.m */; };
+		E59EB7981D48A6AD008A6674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EB7971D48A6AD008A6674 /* AppDelegate.m */; };
+		E59EB79B1D48A6AD008A6674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EB79A1D48A6AD008A6674 /* ViewController.m */; };
+		E59EB79E1D48A6AD008A6674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59EB79C1D48A6AD008A6674 /* Main.storyboard */; };
+		E59EB7A11D48A6AD008A6674 /* LaundryMart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E59EB79F1D48A6AD008A6674 /* LaundryMart.xcdatamodeld */; };
+		E59EB7A31D48A6AD008A6674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59EB7A21D48A6AD008A6674 /* Assets.xcassets */; };
+		E59EB7A61D48A6AD008A6674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59EB7A41D48A6AD008A6674 /* LaunchScreen.storyboard */; };
+		E59EB7B11D48A6AD008A6674 /* LaundryMartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EB7B01D48A6AD008A6674 /* LaundryMartTests.m */; };
+		E59EB7BC1D48A6AD008A6674 /* LaundryMartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EB7BB1D48A6AD008A6674 /* LaundryMartUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E59EB7AD1D48A6AD008A6674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E59EB7881D48A6AC008A6674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59EB78F1D48A6AD008A6674;
+			remoteInfo = LaundryMart;
+		};
+		E59EB7B81D48A6AD008A6674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E59EB7881D48A6AC008A6674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59EB78F1D48A6AD008A6674;
+			remoteInfo = LaundryMart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E59EB7901D48A6AD008A6674 /* LaundryMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59EB7941D48A6AD008A6674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E59EB7961D48A6AD008A6674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E59EB7971D48A6AD008A6674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E59EB7991D48A6AD008A6674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E59EB79A1D48A6AD008A6674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E59EB79D1D48A6AD008A6674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E59EB7A01D48A6AD008A6674 /* LaundryMart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaundryMart.xcdatamodel; sourceTree = "<group>"; };
+		E59EB7A21D48A6AD008A6674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E59EB7A51D48A6AD008A6674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E59EB7A71D48A6AD008A6674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59EB7AC1D48A6AD008A6674 /* LaundryMartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryMartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59EB7B01D48A6AD008A6674 /* LaundryMartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaundryMartTests.m; sourceTree = "<group>"; };
+		E59EB7B21D48A6AD008A6674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59EB7B71D48A6AD008A6674 /* LaundryMartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59EB7BB1D48A6AD008A6674 /* LaundryMartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaundryMartUITests.m; sourceTree = "<group>"; };
+		E59EB7BD1D48A6AD008A6674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E59EB78D1D48A6AD008A6674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59EB7A91D48A6AD008A6674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59EB7B41D48A6AD008A6674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E59EB7871D48A6AC008A6674 = {
+			isa = PBXGroup;
+			children = (
+				E59EB7921D48A6AD008A6674 /* LaundryMart */,
+				E59EB7AF1D48A6AD008A6674 /* LaundryMartTests */,
+				E59EB7BA1D48A6AD008A6674 /* LaundryMartUITests */,
+				E59EB7911D48A6AD008A6674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E59EB7911D48A6AD008A6674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E59EB7901D48A6AD008A6674 /* LaundryMart.app */,
+				E59EB7AC1D48A6AD008A6674 /* LaundryMartTests.xctest */,
+				E59EB7B71D48A6AD008A6674 /* LaundryMartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E59EB7921D48A6AD008A6674 /* LaundryMart */ = {
+			isa = PBXGroup;
+			children = (
+				E59EB7961D48A6AD008A6674 /* AppDelegate.h */,
+				E59EB7971D48A6AD008A6674 /* AppDelegate.m */,
+				E59EB7991D48A6AD008A6674 /* ViewController.h */,
+				E59EB79A1D48A6AD008A6674 /* ViewController.m */,
+				E59EB79C1D48A6AD008A6674 /* Main.storyboard */,
+				E59EB7A21D48A6AD008A6674 /* Assets.xcassets */,
+				E59EB7A41D48A6AD008A6674 /* LaunchScreen.storyboard */,
+				E59EB7A71D48A6AD008A6674 /* Info.plist */,
+				E59EB79F1D48A6AD008A6674 /* LaundryMart.xcdatamodeld */,
+				E59EB7931D48A6AD008A6674 /* Supporting Files */,
+			);
+			path = LaundryMart;
+			sourceTree = "<group>";
+		};
+		E59EB7931D48A6AD008A6674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E59EB7941D48A6AD008A6674 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E59EB7AF1D48A6AD008A6674 /* LaundryMartTests */ = {
+			isa = PBXGroup;
+			children = (
+				E59EB7B01D48A6AD008A6674 /* LaundryMartTests.m */,
+				E59EB7B21D48A6AD008A6674 /* Info.plist */,
+			);
+			path = LaundryMartTests;
+			sourceTree = "<group>";
+		};
+		E59EB7BA1D48A6AD008A6674 /* LaundryMartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E59EB7BB1D48A6AD008A6674 /* LaundryMartUITests.m */,
+				E59EB7BD1D48A6AD008A6674 /* Info.plist */,
+			);
+			path = LaundryMartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E59EB78F1D48A6AD008A6674 /* LaundryMart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59EB7C01D48A6AD008A6674 /* Build configuration list for PBXNativeTarget "LaundryMart" */;
+			buildPhases = (
+				E59EB78C1D48A6AD008A6674 /* Sources */,
+				E59EB78D1D48A6AD008A6674 /* Frameworks */,
+				E59EB78E1D48A6AD008A6674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaundryMart;
+			productName = LaundryMart;
+			productReference = E59EB7901D48A6AD008A6674 /* LaundryMart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E59EB7AB1D48A6AD008A6674 /* LaundryMartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59EB7C31D48A6AD008A6674 /* Build configuration list for PBXNativeTarget "LaundryMartTests" */;
+			buildPhases = (
+				E59EB7A81D48A6AD008A6674 /* Sources */,
+				E59EB7A91D48A6AD008A6674 /* Frameworks */,
+				E59EB7AA1D48A6AD008A6674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59EB7AE1D48A6AD008A6674 /* PBXTargetDependency */,
+			);
+			name = LaundryMartTests;
+			productName = LaundryMartTests;
+			productReference = E59EB7AC1D48A6AD008A6674 /* LaundryMartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E59EB7B61D48A6AD008A6674 /* LaundryMartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59EB7C61D48A6AD008A6674 /* Build configuration list for PBXNativeTarget "LaundryMartUITests" */;
+			buildPhases = (
+				E59EB7B31D48A6AD008A6674 /* Sources */,
+				E59EB7B41D48A6AD008A6674 /* Frameworks */,
+				E59EB7B51D48A6AD008A6674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59EB7B91D48A6AD008A6674 /* PBXTargetDependency */,
+			);
+			name = LaundryMartUITests;
+			productName = LaundryMartUITests;
+			productReference = E59EB7B71D48A6AD008A6674 /* LaundryMartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E59EB7881D48A6AC008A6674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Strathmore;
+				TargetAttributes = {
+					E59EB78F1D48A6AD008A6674 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E59EB7AB1D48A6AD008A6674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E59EB78F1D48A6AD008A6674;
+					};
+					E59EB7B61D48A6AD008A6674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E59EB78F1D48A6AD008A6674;
+					};
+				};
+			};
+			buildConfigurationList = E59EB78B1D48A6AC008A6674 /* Build configuration list for PBXProject "LaundryMart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E59EB7871D48A6AC008A6674;
+			productRefGroup = E59EB7911D48A6AD008A6674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E59EB78F1D48A6AD008A6674 /* LaundryMart */,
+				E59EB7AB1D48A6AD008A6674 /* LaundryMartTests */,
+				E59EB7B61D48A6AD008A6674 /* LaundryMartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E59EB78E1D48A6AD008A6674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59EB7A61D48A6AD008A6674 /* LaunchScreen.storyboard in Resources */,
+				E59EB7A31D48A6AD008A6674 /* Assets.xcassets in Resources */,
+				E59EB79E1D48A6AD008A6674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59EB7AA1D48A6AD008A6674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59EB7B51D48A6AD008A6674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E59EB78C1D48A6AD008A6674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59EB79B1D48A6AD008A6674 /* ViewController.m in Sources */,
+				E59EB7981D48A6AD008A6674 /* AppDelegate.m in Sources */,
+				E59EB7951D48A6AD008A6674 /* main.m in Sources */,
+				E59EB7A11D48A6AD008A6674 /* LaundryMart.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59EB7A81D48A6AD008A6674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59EB7B11D48A6AD008A6674 /* LaundryMartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59EB7B31D48A6AD008A6674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59EB7BC1D48A6AD008A6674 /* LaundryMartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E59EB7AE1D48A6AD008A6674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59EB78F1D48A6AD008A6674 /* LaundryMart */;
+			targetProxy = E59EB7AD1D48A6AD008A6674 /* PBXContainerItemProxy */;
+		};
+		E59EB7B91D48A6AD008A6674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59EB78F1D48A6AD008A6674 /* LaundryMart */;
+			targetProxy = E59EB7B81D48A6AD008A6674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E59EB79C1D48A6AD008A6674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E59EB79D1D48A6AD008A6674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E59EB7A41D48A6AD008A6674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E59EB7A51D48A6AD008A6674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E59EB7BE1D48A6AD008A6674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E59EB7BF1D48A6AD008A6674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E59EB7C11D48A6AD008A6674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaundryMart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91460.LaundryMart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E59EB7C21D48A6AD008A6674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaundryMart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91460.LaundryMart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E59EB7C41D48A6AD008A6674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaundryMartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91460.LaundryMartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryMart.app/LaundryMart";
+			};
+			name = Debug;
+		};
+		E59EB7C51D48A6AD008A6674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaundryMartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91460.LaundryMartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryMart.app/LaundryMart";
+			};
+			name = Release;
+		};
+		E59EB7C71D48A6AD008A6674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaundryMartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91460.LaundryMartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaundryMart;
+			};
+			name = Debug;
+		};
+		E59EB7C81D48A6AD008A6674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaundryMartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91460.LaundryMartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaundryMart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E59EB78B1D48A6AC008A6674 /* Build configuration list for PBXProject "LaundryMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59EB7BE1D48A6AD008A6674 /* Debug */,
+				E59EB7BF1D48A6AD008A6674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59EB7C01D48A6AD008A6674 /* Build configuration list for PBXNativeTarget "LaundryMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59EB7C11D48A6AD008A6674 /* Debug */,
+				E59EB7C21D48A6AD008A6674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E59EB7C31D48A6AD008A6674 /* Build configuration list for PBXNativeTarget "LaundryMartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59EB7C41D48A6AD008A6674 /* Debug */,
+				E59EB7C51D48A6AD008A6674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E59EB7C61D48A6AD008A6674 /* Build configuration list for PBXNativeTarget "LaundryMartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59EB7C71D48A6AD008A6674 /* Debug */,
+				E59EB7C81D48A6AD008A6674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E59EB79F1D48A6AD008A6674 /* LaundryMart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E59EB7A01D48A6AD008A6674 /* LaundryMart.xcdatamodel */,
+			);
+			currentVersion = E59EB7A01D48A6AD008A6674 /* LaundryMart.xcdatamodel */;
+			path = LaundryMart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E59EB7881D48A6AC008A6674 /* Project object */;
+}
