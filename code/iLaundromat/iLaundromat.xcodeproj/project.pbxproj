@@ -15,6 +15,10 @@
 		08187E6D1D3E7C9B00AE0148 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08187E6C1D3E7C9B00AE0148 /* Images.xcassets */; };
 		08187E701D3E7C9B00AE0148 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08187E6E1D3E7C9B00AE0148 /* LaunchScreen.xib */; };
 		08187E7C1D3E7C9B00AE0148 /* iLaundromatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08187E7B1D3E7C9B00AE0148 /* iLaundromatTests.m */; };
+		33A781FE82E2E32AC2F6E65B /* libPods-iLaundromatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A264E1760A59F1E5575E104A /* libPods-iLaundromatTests.a */; };
+		33EA413695332FC97ECE222F /* libPods-iLaundromat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C17D5F98A5719D7155AFEBC /* libPods-iLaundromat.a */; };
+		E5A9E1CD1D49E6B5009E0A23 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A9E1CC1D49E6B5009E0A23 /* RegisterViewController.m */; };
+		E5AB9ABE1D48F9D2007679A9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB9ABD1D48F9D2007679A9 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,16 @@
 		08187E751D3E7C9B00AE0148 /* iLaundromatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLaundromatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08187E7A1D3E7C9B00AE0148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08187E7B1D3E7C9B00AE0148 /* iLaundromatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iLaundromatTests.m; sourceTree = "<group>"; };
+		3381E3E23B40C06F521C57DF /* Pods-iLaundromat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat.release.xcconfig"; sourceTree = "<group>"; };
+		3C17D5F98A5719D7155AFEBC /* libPods-iLaundromat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLaundromat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E2881DA9C651272A43A279 /* Pods-iLaundromat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat.debug.xcconfig"; sourceTree = "<group>"; };
+		A264E1760A59F1E5575E104A /* libPods-iLaundromatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLaundromatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02A402BA9605BB45F811327 /* Pods-iLaundromatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromatTests/Pods-iLaundromatTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5A9E1CB1D49E6B5009E0A23 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		E5A9E1CC1D49E6B5009E0A23 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		E5AB9ABC1D48F9D2007679A9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E5AB9ABD1D48F9D2007679A9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F6D5EE710D8723A4027ACD92 /* Pods-iLaundromatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromatTests/Pods-iLaundromatTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EA413695332FC97ECE222F /* libPods-iLaundromat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +71,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A781FE82E2E32AC2F6E65B /* libPods-iLaundromatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0038954E75C2BB20942E4F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95E2881DA9C651272A43A279 /* Pods-iLaundromat.debug.xcconfig */,
+				3381E3E23B40C06F521C57DF /* Pods-iLaundromat.release.xcconfig */,
+				F6D5EE710D8723A4027ACD92 /* Pods-iLaundromatTests.debug.xcconfig */,
+				D02A402BA9605BB45F811327 /* Pods-iLaundromatTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		08187E501D3E7C9B00AE0148 = {
 			isa = PBXGroup;
 			children = (
 				08187E5B1D3E7C9B00AE0148 /* iLaundromat */,
 				08187E781D3E7C9B00AE0148 /* iLaundromatTests */,
 				08187E5A1D3E7C9B00AE0148 /* Products */,
+				0038954E75C2BB20942E4F2D /* Pods */,
+				23299BEFF719368FFBD2CF6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +121,10 @@
 				08187E6E1D3E7C9B00AE0148 /* LaunchScreen.xib */,
 				08187E631D3E7C9B00AE0148 /* iLaundromat.xcdatamodeld */,
 				08187E5C1D3E7C9B00AE0148 /* Supporting Files */,
+				E5AB9ABC1D48F9D2007679A9 /* HomeViewController.h */,
+				E5AB9ABD1D48F9D2007679A9 /* HomeViewController.m */,
+				E5A9E1CB1D49E6B5009E0A23 /* RegisterViewController.h */,
+				E5A9E1CC1D49E6B5009E0A23 /* RegisterViewController.m */,
 			);
 			path = iLaundromat;
 			sourceTree = "<group>";
@@ -122,6 +155,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		23299BEFF719368FFBD2CF6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C17D5F98A5719D7155AFEBC /* libPods-iLaundromat.a */,
+				A264E1760A59F1E5575E104A /* libPods-iLaundromatTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08187E7F1D3E7C9B00AE0148 /* Build configuration list for PBXNativeTarget "iLaundromat" */;
 			buildPhases = (
+				2B043563C201EB7D111DEFA5 /* [CP] Check Pods Manifest.lock */,
 				08187E551D3E7C9B00AE0148 /* Sources */,
 				08187E561D3E7C9B00AE0148 /* Frameworks */,
 				08187E571D3E7C9B00AE0148 /* Resources */,
+				CA5D4F4F1E1E44872E34B651 /* [CP] Embed Pods Frameworks */,
+				76208097BD4E6DEA897E16EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08187E821D3E7C9B00AE0148 /* Build configuration list for PBXNativeTarget "iLaundromatTests" */;
 			buildPhases = (
+				C526FD1DFDF94391DF367F96 /* [CP] Check Pods Manifest.lock */,
 				08187E711D3E7C9B00AE0148 /* Sources */,
 				08187E721D3E7C9B00AE0148 /* Frameworks */,
 				08187E731D3E7C9B00AE0148 /* Resources */,
+				554E0DDC6DE80F58C76ADB62 /* [CP] Embed Pods Frameworks */,
+				ECE0F14956136C78A6D8260F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,14 +265,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B043563C201EB7D111DEFA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		554E0DDC6DE80F58C76ADB62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLaundromatTests/Pods-iLaundromatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76208097BD4E6DEA897E16EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C526FD1DFDF94391DF367F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA5D4F4F1E1E44872E34B651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE0F14956136C78A6D8260F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLaundromatTests/Pods-iLaundromatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08187E551D3E7C9B00AE0148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				08187E651D3E7C9B00AE0148 /* iLaundromat.xcdatamodeld in Sources */,
+				E5A9E1CD1D49E6B5009E0A23 /* RegisterViewController.m in Sources */,
 				08187E621D3E7C9B00AE0148 /* AppDelegate.m in Sources */,
 				08187E681D3E7C9B00AE0148 /* ViewController.m in Sources */,
+				E5AB9ABE1D48F9D2007679A9 /* HomeViewController.m in Sources */,
 				08187E5F1D3E7C9B00AE0148 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +492,7 @@
 		};
 		08187E801D3E7C9B00AE0148 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E2881DA9C651272A43A279 /* Pods-iLaundromat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iLaundromat/Info.plist;
@@ -359,6 +503,7 @@
 		};
 		08187E811D3E7C9B00AE0148 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3381E3E23B40C06F521C57DF /* Pods-iLaundromat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iLaundromat/Info.plist;
@@ -369,6 +514,7 @@
 		};
 		08187E831D3E7C9B00AE0148 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D5EE710D8723A4027ACD92 /* Pods-iLaundromatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -388,6 +534,7 @@
 		};
 		08187E841D3E7C9B00AE0148 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02A402BA9605BB45F811327 /* Pods-iLaundromatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -420,6 +567,7 @@
 				08187E811D3E7C9B00AE0148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08187E821D3E7C9B00AE0148 /* Build configuration list for PBXNativeTarget "iLaundromatTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +576,7 @@
 				08187E841D3E7C9B00AE0148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

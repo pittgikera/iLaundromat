@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1B62F5B846AFBC33605893F8ABCC4B72298A85C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C041AB8418327BF60642B73102FC812760E6411A" : 0,
+    "1B62F5B846AFBC33605893F8ABCC4B72298A85C1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EE1B00D3-C181-45E1-997D-1D30887ACCBE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C041AB8418327BF60642B73102FC812760E6411A" : "..",
+    "1B62F5B846AFBC33605893F8ABCC4B72298A85C1" : "iLaundromat\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iLaundromat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iLaundromat.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pittgikera\/iLaundromat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1B62F5B846AFBC33605893F8ABCC4B72298A85C1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pittgikera\/iLaundromat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C041AB8418327BF60642B73102FC812760E6411A"
+    }
+  ]
+}
