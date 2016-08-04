@@ -17,6 +17,7 @@
 		08187E7C1D3E7C9B00AE0148 /* iLaundromatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08187E7B1D3E7C9B00AE0148 /* iLaundromatTests.m */; };
 		33A781FE82E2E32AC2F6E65B /* libPods-iLaundromatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A264E1760A59F1E5575E104A /* libPods-iLaundromatTests.a */; };
 		33EA413695332FC97ECE222F /* libPods-iLaundromat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C17D5F98A5719D7155AFEBC /* libPods-iLaundromat.a */; };
+		A11AA3761D53A8E400301970 /* ilaundrymat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A11AA3751D53A8E400301970 /* ilaundrymat.jpg */; };
 		E5A9E1CD1D49E6B5009E0A23 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A9E1CC1D49E6B5009E0A23 /* RegisterViewController.m */; };
 		E5AB9ABE1D48F9D2007679A9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB9ABD1D48F9D2007679A9 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		3381E3E23B40C06F521C57DF /* Pods-iLaundromat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat.release.xcconfig"; sourceTree = "<group>"; };
 		3C17D5F98A5719D7155AFEBC /* libPods-iLaundromat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLaundromat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E2881DA9C651272A43A279 /* Pods-iLaundromat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat.debug.xcconfig"; sourceTree = "<group>"; };
+		A11AA3751D53A8E400301970 /* ilaundrymat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ilaundrymat.jpg; path = ../../../../../Desktop/ilaundrymat.jpg; sourceTree = "<group>"; };
 		A264E1760A59F1E5575E104A /* libPods-iLaundromatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLaundromatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02A402BA9605BB45F811327 /* Pods-iLaundromatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromatTests/Pods-iLaundromatTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5A9E1CB1D49E6B5009E0A23 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				08187E671D3E7C9B00AE0148 /* ViewController.m */,
 				08187E691D3E7C9B00AE0148 /* Main.storyboard */,
 				08187E6C1D3E7C9B00AE0148 /* Images.xcassets */,
+				A11AA3751D53A8E400301970 /* ilaundrymat.jpg */,
 				08187E6E1D3E7C9B00AE0148 /* LaunchScreen.xib */,
 				08187E631D3E7C9B00AE0148 /* iLaundromat.xcdatamodeld */,
 				08187E5C1D3E7C9B00AE0148 /* Supporting Files */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11AA3761D53A8E400301970 /* ilaundrymat.jpg in Resources */,
 				08187E6B1D3E7C9B00AE0148 /* Main.storyboard in Resources */,
 				08187E701D3E7C9B00AE0148 /* LaunchScreen.xib in Resources */,
 				08187E6D1D3E7C9B00AE0148 /* Images.xcassets in Resources */,
