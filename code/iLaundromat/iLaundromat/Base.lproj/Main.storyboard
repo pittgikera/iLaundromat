@@ -133,23 +133,33 @@
             <point key="canvasLocation" x="785" y="28"/>
         </scene>
         <!--My Orders-->
-        <scene sceneID="61O-sE-m5F">
+        <scene sceneID="Hfp-QM-h7a">
             <objects>
-                <viewController id="LeK-jJ-Oj4" customClass="HomeViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xm3-E6-UWH"/>
-                        <viewControllerLayoutGuide type="bottom" id="Tl9-18-aTh"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MTt-nx-7Ry">
+                <tableViewController id="vJy-wQ-869" customClass="MyOrdersViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aiV-KD-uv7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="My Orders" id="76y-3X-xYd"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ton-gQ-dzx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="crz-a3-lwN">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="crz-a3-lwN" id="Tw4-rI-9aC">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="vJy-wQ-869" id="Ggk-2M-kAn"/>
+                            <outlet property="delegate" destination="vJy-wQ-869" id="TQu-dd-Eet"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My Orders" id="Mdp-pi-FkO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vt8-ua-Ghd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1405" y="1227"/>
+            <point key="canvasLocation" x="1427" y="1227"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Wx2-c8-09G">
@@ -268,7 +278,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="LeK-jJ-Oj4" kind="relationship" relationship="rootViewController" id="LPF-N3-kdm"/>
+                        <segue destination="vJy-wQ-869" kind="relationship" relationship="rootViewController" id="dju-HM-F5N"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7n4-sA-UKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -292,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Duu-FX-H40" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1405" y="1871"/>
+            <point key="canvasLocation" x="1406" y="1913"/>
         </scene>
         <!--Place Order-->
         <scene sceneID="An6-Qe-xjJ">

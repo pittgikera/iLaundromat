@@ -25,6 +25,8 @@
 		08CFCF3F1D5C5A6C006CFC63 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CFCF391D5C5A6C006CFC63 /* FBSDKMessengerShareKit.framework */; };
 		33A781FE82E2E32AC2F6E65B /* libPods-iLaundromatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A264E1760A59F1E5575E104A /* libPods-iLaundromatTests.a */; };
 		33EA413695332FC97ECE222F /* libPods-iLaundromat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C17D5F98A5719D7155AFEBC /* libPods-iLaundromat.a */; };
+		7B698A4F1D6621AA0092E7B2 /* MyOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B698A4E1D6621AA0092E7B2 /* MyOrdersViewController.m */; };
+		7B698A521D66239E0092E7B2 /* MyOrders.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B698A511D66239E0092E7B2 /* MyOrders.m */; };
 		E5A9E1CD1D49E6B5009E0A23 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A9E1CC1D49E6B5009E0A23 /* RegisterViewController.m */; };
 		E5AB9ABE1D48F9D2007679A9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB9ABD1D48F9D2007679A9 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,10 @@
 		08CFCF391D5C5A6C006CFC63 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		3381E3E23B40C06F521C57DF /* Pods-iLaundromat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat.release.xcconfig"; sourceTree = "<group>"; };
 		3C17D5F98A5719D7155AFEBC /* libPods-iLaundromat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLaundromat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B698A4D1D6621AA0092E7B2 /* MyOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrdersViewController.h; sourceTree = "<group>"; };
+		7B698A4E1D6621AA0092E7B2 /* MyOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrdersViewController.m; sourceTree = "<group>"; };
+		7B698A501D66239E0092E7B2 /* MyOrders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrders.h; sourceTree = "<group>"; };
+		7B698A511D66239E0092E7B2 /* MyOrders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrders.m; sourceTree = "<group>"; };
 		95E2881DA9C651272A43A279 /* Pods-iLaundromat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromat/Pods-iLaundromat.debug.xcconfig"; sourceTree = "<group>"; };
 		A264E1760A59F1E5575E104A /* libPods-iLaundromatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLaundromatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02A402BA9605BB45F811327 /* Pods-iLaundromatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLaundromatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLaundromatTests/Pods-iLaundromatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 				E5AB9ABD1D48F9D2007679A9 /* HomeViewController.m */,
 				E5A9E1CB1D49E6B5009E0A23 /* RegisterViewController.h */,
 				E5A9E1CC1D49E6B5009E0A23 /* RegisterViewController.m */,
+				7B698A4D1D6621AA0092E7B2 /* MyOrdersViewController.h */,
+				7B698A4E1D6621AA0092E7B2 /* MyOrdersViewController.m */,
+				7B698A501D66239E0092E7B2 /* MyOrders.h */,
+				7B698A511D66239E0092E7B2 /* MyOrders.m */,
 			);
 			path = iLaundromat;
 			sourceTree = "<group>";
@@ -397,10 +407,12 @@
 			files = (
 				08187E651D3E7C9B00AE0148 /* iLaundromat.xcdatamodeld in Sources */,
 				E5A9E1CD1D49E6B5009E0A23 /* RegisterViewController.m in Sources */,
+				7B698A521D66239E0092E7B2 /* MyOrders.m in Sources */,
 				08187E621D3E7C9B00AE0148 /* AppDelegate.m in Sources */,
 				08187E681D3E7C9B00AE0148 /* ViewController.m in Sources */,
 				E5AB9ABE1D48F9D2007679A9 /* HomeViewController.m in Sources */,
 				08187E5F1D3E7C9B00AE0148 /* main.m in Sources */,
+				7B698A4F1D6621AA0092E7B2 /* MyOrdersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
