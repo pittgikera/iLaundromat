@@ -10,17 +10,19 @@
 
 @implementation MyOrders
 
-@synthesize type, price, date, status;
+@synthesize type, price, quantity, date, status, totalprice;
 
-- (id)initWithOrderType: (NSString *)oType andOrderPrice: (NSString *)oPrice andOrderDate: (NSString *)oDate andOrderStatus: (NSString *)oStatus
+- (id)initWithOrderType: (NSString *)oType andOrderPrice: (NSString *)oPrice andOrderQuantity: (NSString *)oQuantity andOrderDate: (NSString *)oDate andOrderStatus: (NSString *)oStatus andOrderTotalprice: (NSString *)oTotalprice
 {
     self = [super init];
     if (self)
     {
         type = oType;
         price = oPrice;
+        quantity = oQuantity;
         date = oDate;
         status = oStatus;
+        totalprice = oTotalprice;
         
     }
     return self;

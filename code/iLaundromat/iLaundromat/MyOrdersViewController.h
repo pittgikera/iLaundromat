@@ -10,7 +10,7 @@
 
 @interface MyOrdersViewController : UITableViewController
 //{
-//    
+//
 //    IBOutlet UITableView  *MyTableView;
 //}
 //@property(nonatomic,strong)IBOutlet UITableView *MyTableView;
@@ -24,3 +24,4 @@
 - (void) retrieveData;
 
 @end
+
