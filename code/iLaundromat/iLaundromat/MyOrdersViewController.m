@@ -53,12 +53,20 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    }
     
     // Configure the cell...
     MyOrders * myorderObject;
     myorderObject = [ordersArray objectAtIndex:indexPath.row];
     
+    //Accessory
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
     cell.textLabel.text = myorderObject.type;
+    cell.detailTextLabel.text = myorderObject.date;
     
     
     
