@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		071C21CB1D9E9161001420DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071C21CA1D9E9161001420DC /* DetailViewController.m */; };
 		0742F4101D9FD61700644BF9 /* PlaceOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742F40F1D9FD61700644BF9 /* PlaceOrderViewController.m */; };
+		0753448F1DA5051F00955DC7 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0753448E1DA5051F00955DC7 /* Profile.m */; };
 		08187E5F1D3E7C9B00AE0148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08187E5E1D3E7C9B00AE0148 /* main.m */; };
 		08187E621D3E7C9B00AE0148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08187E611D3E7C9B00AE0148 /* AppDelegate.m */; };
 		08187E651D3E7C9B00AE0148 /* iLaundromat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08187E631D3E7C9B00AE0148 /* iLaundromat.xcdatamodeld */; };
@@ -48,6 +49,8 @@
 		071C21CA1D9E9161001420DC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0742F40E1D9FD61700644BF9 /* PlaceOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceOrderViewController.h; path = ../PlaceOrderViewController.h; sourceTree = "<group>"; };
 		0742F40F1D9FD61700644BF9 /* PlaceOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceOrderViewController.m; path = ../PlaceOrderViewController.m; sourceTree = "<group>"; };
+		0753448D1DA5051E00955DC7 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Profile.h; path = ../Profile.h; sourceTree = "<group>"; };
+		0753448E1DA5051F00955DC7 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Profile.m; path = ../Profile.m; sourceTree = "<group>"; };
 		08187E591D3E7C9B00AE0148 /* iLaundromat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLaundromat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08187E5D1D3E7C9B00AE0148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08187E5E1D3E7C9B00AE0148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 				08187E5C1D3E7C9B00AE0148 /* Supporting Files */,
 				E5AB9ABC1D48F9D2007679A9 /* HomeViewController.h */,
 				E5AB9ABD1D48F9D2007679A9 /* HomeViewController.m */,
+				0753448D1DA5051E00955DC7 /* Profile.h */,
+				0753448E1DA5051F00955DC7 /* Profile.m */,
 				E5A9E1CB1D49E6B5009E0A23 /* RegisterViewController.h */,
 				E5A9E1CC1D49E6B5009E0A23 /* RegisterViewController.m */,
 				7B698A4D1D6621AA0092E7B2 /* MyOrdersViewController.h */,
@@ -415,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0753448F1DA5051F00955DC7 /* Profile.m in Sources */,
 				08187E651D3E7C9B00AE0148 /* iLaundromat.xcdatamodeld in Sources */,
 				E5A9E1CD1D49E6B5009E0A23 /* RegisterViewController.m in Sources */,
 				071C21CB1D9E9161001420DC /* DetailViewController.m in Sources */,
