@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Welcome to iLaundryMart-->
+        <!--Welcome to iLaundroMart-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -60,7 +60,7 @@
                             <outletCollection property="gestureRecognizers" destination="RaR-pn-imT" appends="YES" id="UxS-L1-UCw"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Welcome to iLaundryMart" id="rdu-Sy-kFw"/>
+                    <navigationItem key="navigationItem" title="Welcome to iLaundroMart" id="rdu-Sy-kFw"/>
                     <connections>
                         <outlet property="txtPassword" destination="Oir-Zd-HmW" id="Tmj-YB-hug"/>
                         <outlet property="txtUsername" destination="CUK-53-aAB" id="lZ4-2E-kTg"/>
@@ -162,11 +162,11 @@
                                 <rect key="frame" x="0.0" y="136" width="375" height="45"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="crz-a3-lwN" id="Tw4-rI-9aC">
-                                    <frame key="frameInset" width="342" height="45"/>
+                                    <frame key="frameInset" width="342" height="44.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LL2-v6-qaq">
-                                            <frame key="frameInset" minX="15" minY="6" width="31.5" height="19.5"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="No orders yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LL2-v6-qaq">
+                                            <frame key="frameInset" minX="15" minY="6" width="98.5" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -253,13 +253,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqg-b4-OHG">
                                 <frame key="frameInset" minX="7" minY="331" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="piR-5G-T0M">
-                                <frame key="frameInset" minX="7" minY="383" width="69" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -591,7 +584,7 @@
         <image name="profile" width="39" height="29"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Lp0-HH-pAz"/>
+        <segue reference="kDr-WK-mGg"/>
         <segue reference="JKB-B0-JQD"/>
     </inferredMetricsTieBreakers>
 </document>

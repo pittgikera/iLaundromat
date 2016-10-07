@@ -101,7 +101,7 @@
             } else {
                 
                 NSString *error_msg = (NSString *) jsonData[@"error_message"];
-                [self alertStatus:error_msg :@"Order Placement Failed!" :0];
+                [self alertStatus:error_msg :@"Order Placement Successul!" :0];
             }
             
         } else {

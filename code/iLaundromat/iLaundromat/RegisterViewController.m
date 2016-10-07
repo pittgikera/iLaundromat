@@ -77,7 +77,7 @@
 //            [self alertStatus:@"Please enter Email and Password" :@"Sign in Failed!" :0];
 //            
 //        } else {
-            NSString *post =[[NSString alloc] initWithFormat:@"fullname=%@&emailaddress=%@&phonenumber=%@&password=%@",[self.txtFullName text],[self.txtEmailAddress text],[self.txtPhoneNumber text],[self.txtPassword text]];
+            NSString *post =[[NSString alloc] initWithFormat:@"fullname=%@&email=%@&phonenumber=%@&password=%@",[self.txtFullName text],[self.txtEmailAddress text],[self.txtPhoneNumber text],[self.txtPassword text]];
             NSLog(@"PostData: %@",post);
             
             NSURL *url=[NSURL URLWithString:@"http://codeninja.co.ke/Betti/iOS/register.php"];

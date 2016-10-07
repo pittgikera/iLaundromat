@@ -18,13 +18,8 @@
 @property (nonatomic,strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * ordersArray;
 
-
-@property(nonatomic, strong) Profile * currentOrder;
-
 #pragma mark -
 #pragma mark Class Methods
 
-- (void) retrieveData;
-- (void)getMyOrder:(id)myorderObject;
-- (void)setLabels;
+
 @end
