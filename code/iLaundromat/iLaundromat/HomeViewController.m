@@ -26,7 +26,7 @@
     // Do any additional setup after loading the view.
     
     NSError *error;
-    NSString *url_string = [NSString stringWithFormat: @"http://www.codeninja.co.ke/Betti/iOS/getProfile.php"];
+    NSString *url_string = [NSString stringWithFormat: @"http://www.codeninja.co.ke/Betti/iOS/getProfile.php?email=gmail.com"];
     NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
     NSMutableArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
     NSLog(@"json: %@", json);
